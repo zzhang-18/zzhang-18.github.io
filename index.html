@@ -1,6 +1,6 @@
 <html>
 <head>
-	<meta name="generator" content="Hugo 0.98.0" />
+	<meta name="generator" content="Hugo 0.121.1">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -49,8 +49,9 @@
 
     <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
         
-        
-        
+        <li class="layui-nav-item" id="nav_big"><a href="/">Bio</a></li>
+        <li class="layui-nav-item" id="nav_big"><a href="/#Publications">Publications</a></li>
+        <li class="layui-nav-item" id="nav_big"><a href="/artworks/">Art</a></li>
         
 
         
@@ -62,8 +63,9 @@
             </a>
 
             <dl class="layui-nav-child">
-                
-                <dd><a href="/post/">Posts</a></dd>
+                <dd><a href="/">Bio</a></dd>
+                <dd><a href="/#Publications">Publications</a></dd>
+                <dd><a href="/artworks/">Art</a></dd>
                 
 
                 
@@ -90,35 +92,30 @@ layui.use('element', function(){
         <div class="layui-col-xs12 layui-col-sm4 layui-col-md4 about_left">
             <img class="lazyload about_portrait" data-src="/portrait.jpg" />
             <h1> Jack Zhang </h1>
-            <h2> 张子涵 </h2>
+            <h2> (张子涵) </h2>
             
             
+            <div class="layui-row layui-col-space10">
+                <ul aria-hidden="true">
+                
+                <li><a href="mailto:zzhang18@uchicago.edu"><i class="fa fa-envelope-o" style="font-size:32px;"></i></a></li>
+                
+                <li><a href="https://github.com/zzhang-18/"><i class="fa fa-github" style="font-size:32px;"></i></a></li>
+                
+                <li><a href="https://twitter.com/jackzzhang"><i class="fa fa-twitter" style="font-size:32px;"></i></a></li>
+                
+                </ul>
             
-            <div class="layui-row layui-col-space10 about_left_icon">
-                
-                <div class="layui-col-md3 layui-col-sm3 layui-col-xs3">
-                <a href="zzhang18@uchicago.edu"><i class="fa fa-envelope-o" style="font-size:32px;"></i></a>
-                </div>
-                
-                <div class="layui-col-md3 layui-col-sm3 layui-col-xs3">
-                <a href="https://github.com/zzhang-18/"><i class="fa fa-github" style="font-size:32px;"></i></a>
-                </div>
-                
-                <div class="layui-col-md3 layui-col-sm3 layui-col-xs3">
-                <a href="https://twitter.com/jackzzhang"><i class="fa fa-twitter" style="font-size:32px;"></i></a>
-                </div>
-                
             </div>
             
 
         </div>
         <div class="layui-col-xs12 layui-col-sm8 layui-col-md8 about_right">
             <h1>Bio</h1>
-            <h2>    <p> I'm a fourth-year undergrad @ UChicago studying CS & Math, and I'm also a research assistant @ 3DL Lab led by Prof. Rana
+            <h2 id="Bio">    <p> I'm a fourth-year undergrad @ UChicago studying CS & Math, and a research assistant @ <a href="https://3dl.cs.uchicago.edu/">3DL Lab</a> led by Prof. Rana
     Hanocka. My research interests include computer graphics, animation, deep learning, and applied topology.  </p>
     </br>
     <p>I play tennis on my free time, and I also enjoy hiking, history (Chinese art history and Russian history in particular), and photography.</p>
-    </br>  
     </h2>
         </div>
     </div>
@@ -127,17 +124,119 @@ layui.use('element', function(){
 <div class="layui-fluid recent" >
     <div class="layui-container">
         <div class="layui-row recent-inner" >
-            <div class="layui-col-md8 layui-col-sm8 layui-col-xs12">
+            
+                <h1 id="Publications"><b>Publications</b> </h1>
                 
                 
+<div class="publications">
+    
+    <div class="publication">
+            
+            <div class="publication-image">
+                <img src="TEDi.gif" alt="TEDi: Temporally-Entangled Diffusion for Long-Term Motion Synthesis Teaser Image">
             </div>
-
-            <div class="layui-col-md4 layui-col-sm4 layui-col-xs12">
-
-                
-
-                
+            
+        <div class="publication-details">
+            <h3>TEDi: Temporally-Entangled Diffusion for Long-Term Motion Synthesis</h3>
+            <p class="authors">
+                        
+                    
+                        <strong>Zihan Zhang,</strong>
+                    
+                        
+                    
+                        Richard Liu,
+                    
+                        
+                    
+                        Kfir Aberman,
+                    
+                        
+                    
+                        Rana Hanocka
+                    
+                </p>
+            <p class="venue">ArXiv 2023</p>
+            <a class="button" href="https://arxiv.org/abs/2307.15042">Paper</a>
+            <a class="button" href="https://threedle.github.io/TEDi/">Project</a>
+            <a class="button" href="https://github.com/threedle/TEDi">Code</a>
+        </div>
+    </div>
+    
+    <div class="publication">
+            
+            <div class="publication-image">
+                <img src="GANimator.jpg" alt="GANimator: Neural Motion Synthesis from a Single Sequence Teaser Image">
             </div>
+            
+        <div class="publication-details">
+            <h3>GANimator: Neural Motion Synthesis from a Single Sequence</h3>
+            <p class="authors">
+                        
+                    
+                        Peizhuo Li,
+                    
+                        
+                    
+                        Kfir Aberman,
+                    
+                        
+                    
+                        <strong>Zihan Zhang,</strong>
+                    
+                        
+                    
+                        Rana Hanocka,
+                    
+                        
+                    
+                        Olga Sorkine-Hornung
+                    
+                </p>
+            <p class="venue">SIGGRAPH 2022</p>
+            <a class="button" href="https://arxiv.org/abs/2205.02625">Paper</a>
+            <a class="button" href="https://peizhuoli.github.io/ganimator/">Project</a>
+            <a class="button" href="https://github.com/PeizhuoLi/ganimator">Code</a>
+        </div>
+    </div>
+    
+    <div class="publication">
+            
+            <div class="publication-image">
+                <img src="covid.png" alt="COVID-19 Tweets of Governors and Health Experts: Deaths, Masks, and The Economy Teaser Image">
+            </div>
+            
+        <div class="publication-details">
+            <h3>COVID-19 Tweets of Governors and Health Experts: Deaths, Masks, and The Economy</h3>
+            <p class="authors">
+                        
+                    
+                        Tim Hua,
+                    
+                        
+                    
+                        Chris Kim,
+                    
+                        
+                    
+                        <strong>Zihan Zhang,</strong>
+                    
+                        
+                    
+                        Alex Lyford
+                    
+                </p>
+            <p class="venue">Journal of Student Research 2021</p>
+            <a class="button" href="https://www.jsr.org/index.php/path/article/view/1171/951">Paper</a>
+            
+            
+        </div>
+    </div>
+    
+</div>
+            
+
+            
         </div>
     </div>
 </div>
@@ -145,13 +244,6 @@ layui.use('element', function(){
 </main>
 
 
-        </div><footer>
-    
-    
-    <div class="layui-container">
-        <p class="copyright">Powered by <a href='https://gohugo.io' style='color:#FFFFFF'>Hugo</a> and <a href='https://github.com/ertuil/erblog' style='color:#FFFFFF'>Erblog</a>.</p>
-    </div>
-</footer>
-
+        </div>
 </body>
 </html>

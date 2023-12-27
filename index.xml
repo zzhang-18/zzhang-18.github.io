@@ -2,9 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jack Zhang</title>
-    <link>http://example.org/</link>
+    <link>/</link>
     <description>Recent content on Jack Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artworks</title>
+      <link>/artworks/</link>
+      <pubDate>Wed, 27 Dec 2023 15:30:00 -0600</pubDate>
+      <guid>/artworks/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
