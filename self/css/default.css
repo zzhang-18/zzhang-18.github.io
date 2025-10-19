@@ -3,7 +3,7 @@ body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     font-display: swap;
     color: #2c3e50;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.6;
 }
 
@@ -38,7 +38,7 @@ body {
 .recent h1 {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-weight: 700;
-    font-size: 2.75rem;
+    font-size: 2.2rem;
     color: #1e3a5f;
     margin-bottom: 45px;
     text-align: center;
@@ -80,7 +80,7 @@ body {
 
 .publication-details h3 {
     margin: 0 0 12px 0;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: #1e3a5f;
     line-height: 1.4;
@@ -90,7 +90,7 @@ body {
 .publication-details .authors {
     color: #6b7280;
     font-style: normal;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 10px 0;
     line-height: 1.6;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -104,7 +104,7 @@ body {
 .publication-details .venue {
     font-weight: 600;
     color: #2c5282;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 10px 0 18px 0;
     text-transform: uppercase;
     letter-spacing: 0.025em;
@@ -120,7 +120,7 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 500;
     transition: all 0.3s ease;
     border: 2px solid #1e3a5f;
@@ -177,7 +177,7 @@ body {
     }
 
     .recent h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .recent {
@@ -265,7 +265,7 @@ body {
 
 .about_left > h1 {
     font-weight: 700;
-    font-size: 2.2rem;
+    font-size: 1.75rem;
     letter-spacing: -0.5px;
     line-height: 1.2;
     color: #1e3a5f;
@@ -279,7 +279,7 @@ body {
     letter-spacing: -0.3px;
     line-height: 1.3;
     color: #5a6c7d;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .about_right {
@@ -290,7 +290,7 @@ body {
 
 .about_right > h1 {
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
     letter-spacing: -0.025em;
     line-height: 1.2;
     color: #1e3a5f;
@@ -302,7 +302,7 @@ body {
 
 .about_right > h2 {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.05rem;
     letter-spacing: -0.2px;
     line-height: 1.75;
     color: #374151;
@@ -311,7 +311,7 @@ body {
 
 .about_right > h2 p {
     margin-bottom: 20px;
-    font-size: 1.3rem;
+    font-size: 1.05rem;
     line-height: 1.75;
     color: #374151;
 }
@@ -487,7 +487,7 @@ body {
     height: 100%;
     line-height: 60px;
     color: #FFFFFF;
-    font-size: 26px;
+    font-size: 21px;
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     letter-spacing: -0.5px;
@@ -496,7 +496,7 @@ body {
 .layui-nav .layui-nav-item a {
     color: #FFFFFF;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     transition: opacity 0.3s ease;
 }
@@ -536,7 +536,7 @@ footer {
     text-align: center;
     border-bottom: var(--border-width) solid var(--accent);
     font-family: 'TT Commons',Arial,Helvetica,sans-serif;
-    font-size: 1.0625rem;
+    font-size: 0.85rem;
     font-display: swap;
     color: #ffffff;
 }
@@ -544,7 +544,7 @@ footer {
 .copyright {
     border-bottom: var(--border-width) solid var(--accent);
     font-family: 'TT Commons',Arial,Helvetica,sans-serif;
-    font-size: 1.0625rem;
+    font-size: 0.85rem;
     font-display: swap;
     color: #ffffff;
     margin-top: 10px;
